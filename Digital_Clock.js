@@ -12,6 +12,6 @@ setInterval(() => {
     a = new Date();
     date = a.toLocaleDateString(undefined, option);
     time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
-    document.getElementById('time').innerHTML = "Current Time " + time;
-    document.getElementById('day').innerHTML = " on " + date;
+    document.getElementById('time').innerHTML = "Current Time : " + time;
+    document.getElementById('day').innerHTML = " on " + date + ",2021";
 }, 1000);
